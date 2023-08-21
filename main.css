@@ -1,0 +1,70 @@
+:root {
+    --one: white;
+    --two: rgb(101, 123, 148);
+
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--two);
+}
+
+.headliner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 400%;
+    margin-bottom: 100px;
+    padding-bottom: 20px;
+}
+
+.buttonForChange {
+    margin-left: 80px;
+    font-size: x-large;
+    display: grid;
+
+
+}
+
+.colors {
+    padding: 8px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+
+}
+
+#changeToRed {
+    padding: 10px;
+    margin-bottom: 250px;
+    margin-top: 1px;
+    background: var(--one);
+    transform: scale(10);
+    border-radius: 100%;
+    border-style: solid;
+}
+
+#changeToYellow {
+    padding: 10px;
+    margin-bottom: 250px;
+    background: var(--one);
+    transform: scale(10);
+    border-radius: 100%;
+    border-style: solid;
+}
+
+#changeToGreen {
+    padding: 10px;
+    background: var(--one);
+    transform: scale(10);
+    border-radius: 100%;
+    border-style: solid;
+}
